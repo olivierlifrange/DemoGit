@@ -1,36 +1,55 @@
-##Loan Approval Prediction Project
-Overview
-This project builds a machine learning model to predict loan application approval, crucial for financial risk assessment. It covers the full ML lifecycle: problem definition, data analysis, model building, interpretation, testing, and CI/CD integration.
+# Loan Approval Prediction Project
 
-Project Structure & Methodology
-1. Problem Framing
-Objective: Predict loan approval based on applicant data.
+## Overview
 
-Context: Relates to financial risk modeling and informed lending decisions.
+This project builds a machine learning model to **predict loan application approval**, crucial for **financial risk assessment**. It covers the full ML lifecycle: problem definition, data analysis, model building, interpretation, testing, and CI/CD integration.
 
-2. Exploratory Data Analysis (EDA)
-Tools: pandas, matplotlib, seaborn.
+---
 
-Focus: Visualize distributions, identify correlations, handle missing values, detect outliers.
+## Project Structure & Methodology
 
-3. Data Preprocessing
-Steps:
+### 1. Problem Framing
+* **Objective**: Predict loan approval based on applicant data.
+* **Context**: Relates to financial risk modeling and informed lending decisions.
 
-Encode categorical variables (OneHot, LabelEncoding).
+---
 
-Normalize/standardize numerical features.
+### 2. Exploratory Data Analysis (EDA)
+* **Tools**: `pandas`, `matplotlib`, `seaborn`.
+* **Focus**: Visualize distributions, identify correlations, handle missing values, detect outliers.
 
-Feature engineering (e.g., debt-to-income ratio).
+---
 
-Train-test split with stratification.
+### 3. Data Preprocessing
+* **Steps**:
+    * Encode categorical variables (OneHot, LabelEncoding).
+    * Normalize/standardize numerical features.
+    * Feature engineering (e.g., debt-to-income ratio).
+    * Train-test split with stratification.
 
-4. Modeling
-Models: Logistic Regression (baseline), Random Forest / XGBoost, Support Vector Machine.
+---
 
-Evaluation: Cross-validation, grid search, metrics (Accuracy, Precision, Recall, F1, ROC-AUC).
+### 4. Modeling
+* **Models**: Logistic Regression (baseline), Random Forest / XGBoost, Support Vector Machine.
+* **Evaluation**: Cross-validation, grid search, metrics (Accuracy, Precision, Recall, F1, ROC-AUC).
 
-5. Model Interpretation
-Methods: Feature importance plots, SHAP/LIME for explainability.
+---
 
-6. Testing
-Approach: Unit tests for preprocessing and model functions using pytest
+### 5. Model Interpretation
+* **Methods**: Feature importance plots, SHAP/LIME for explainability.
+
+---
+
+### 6. Testing
+* **Approach**: Unit tests for preprocessing and model functions using `pytest`.
+
+---
+
+### 7. CI/CD
+* **Automation**: GitHub Actions to run tests on every push.
+
+
+
+## Contact
+
+Olivier Lifrange - https://www.linkedin.com/in/olivier-lifrange-718220237/ / olivier.lifrange@gmail.com
